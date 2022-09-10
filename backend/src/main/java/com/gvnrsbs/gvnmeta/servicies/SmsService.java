@@ -34,7 +34,7 @@ public class SmsService {
 		
 		String date = sale.getDate().getMonthValue() + "/" + sale.getDate().getYear();
 		
-		String msg = String.format("O vendedor %s foi destaque em %s com um total de R$ %.2f", sale.getSellerName(), date, sale.getAmount());
+		String msg = ("Teste de mensagem sem nenhuma concatenação ");
 
 		Twilio.init(twilioSid, twilioKey);
 
