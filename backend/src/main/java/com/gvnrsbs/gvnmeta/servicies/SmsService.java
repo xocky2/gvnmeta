@@ -34,7 +34,17 @@ public class SmsService {
 		
 		String date = sale.getDate().getMonthValue() + "/" + sale.getDate().getYear();
 		
-		String msg = ("Teste de mensagem sem nenhuma concatenação ");
+		
+		try {
+			String msg = "O vendedor " + sale.getSellerName() + " foi destaque em " + date
+				    + " com um total de R$ " + String.format("%.0f", sale.getAmount());
+
+		} catch (Exception e) {
+			System.out.println("----------------------------------- ERROR ------------------------------------------------");
+			System.out.println(e);
+		}
+		
+		//String msg = ("Teste de mensagem sem nenhuma concatenação ");
 
 		Twilio.init(twilioSid, twilioKey);
 
