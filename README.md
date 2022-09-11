@@ -7,7 +7,7 @@ para acompanhamento de metas de vendas e notificação via SMS.
 ## Link da aplicação:
  [Netlify](https://gvnmeta-react-spring.netlify.app/)
  
-## Tech utilizadas
+## Techs utilizadas
 
 - ReactJS
 - React Datepicker
