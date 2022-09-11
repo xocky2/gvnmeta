@@ -18,7 +18,7 @@ para acompanhamento de metas de vendas e notificação via SMS.
 - Spring Data JPA
 - Postman
 - Heroku CLI
-- Netlfy
+- Netlify
 - Twillo SMS Service
 
 
