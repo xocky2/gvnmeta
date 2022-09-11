@@ -9,7 +9,7 @@ function Header() {
                 <h1>GVNMeta</h1>
                 <p>
                     Desenvolvido por
-                    <a href="https://www.instagram.com/gvnrb"> @gvnrb</a>
+                    <a href="https://www.linkedin.com/in/giovanni-rios-barros-a2503918b/"> @gvnrb</a>
                 </p>
             </div>
         </header>
